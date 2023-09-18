@@ -1,6 +1,5 @@
 "use strict";
-const { PeerRPCClient } = require("grenache-nodejs-http");
-const { PeerRPCServer } = require("grenache-nodejs-http");
+const { PeerRPCServer, PeerRPCClient } = require("grenache-nodejs-http");
 const Link = require("grenache-nodejs-link");
 const { v4: uuidv4 } = require("uuid");
 const _clientId = uuidv4();
